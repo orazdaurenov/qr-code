@@ -1,17 +1,16 @@
 html {
   background: hsl(220, 15%, 55%);
   font-family: Outfit, sans-serif;
-  font-size: 15px;
-  margin: auto;
+  font-size: 1.5rem;
 }
 
 a:link {
-  color:black
+  color:hsl(212, 45%, 89%);
   text-decoration: none;
 }
 
 a:visited {
-  color: black;
+  color:hsl(212, 45%, 89%);
 }
 h1 {
   font-weight: 700;
@@ -19,9 +18,11 @@ h1 {
 .box {
   background: hsl(0, 0%, 100%);
   border-radius: 15px;
-  display: inline-block
+  display: inline-block;
   max-width:375px;
   padding:10px;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
@@ -34,4 +35,11 @@ padding: 4px 4px;
 p {
 color:hsl(212, 45%, 89%);
 font-weight: 400;
+max-width: 100%;
+}
+
+footer {
+  color: hsl(212, 45%, 89%);
+  justify-content: center;
+  align-items: center;
 }
