@@ -1,0 +1,21 @@
+.box {
+  display: inline-block;
+  height: 30rem;
+  width: 15rem;
+  border: 3px solid tomato;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+height: 15em;
+width: 15em;
+padding: 4px 4px;
+border-radius: 20px;
+}
+
+p {
+  font-size: 1.4rem;
+  font-family: Outfit, sans-serif;
+}
