@@ -8,12 +8,10 @@ body {
 
 a:link {
   color:hsl(212, 50%, 15%);
-  font-family: Outfit, sans-serif;
 }
 
 a:visited {
   color:hsl(216, 71%, 1%);
-  font-family: Outfit, sans-serif;
 }
 h1 {
   font-weight: 600;
