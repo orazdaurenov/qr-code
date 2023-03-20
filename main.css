@@ -3,8 +3,6 @@ body {
   font-family: Outfit, sans-serif;
   font-size: 1.5rem;
   min-height: 100vh;
-  display: grid;
-  place-content: center;
   text-align: center;
 }
 
@@ -22,6 +20,8 @@ h1 {
   color: hsl(218, 44%, 22%);
 }
 .box {
+  display: grid;
+  place-content: center;
   background: hsl(0, 0%, 100%);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 15px;
