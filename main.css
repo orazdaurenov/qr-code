@@ -1,8 +1,17 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
+  -webkit-font-smoothing: antialiased;
   background: rgb(214,225,240);
   font-family: Outfit, sans-serif;
-  font-size: 1.5rem;
-  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -14,27 +23,22 @@ a:visited {
   color:hsl(216, 71%, 1%);
 }
 h1 {
-  font-weight: 600;
   color: hsl(218, 44%, 22%);
+  font-weight: 600;
 }
 .box {
   display: grid;
-  place-content: center;
+  justify-content: center;
   background: hsl(0, 0%, 100%);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 15px;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  max-width:375px;
-  padding:8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  max-width:300px;
+  padding:12px;
 }
 
 img {
-border-radius: 20px;
-display: block;
+border-radius: 15px;
 max-width: 100%;
 }
 
@@ -43,9 +47,9 @@ color:hsl(220, 15%, 55%);
 }
 
 .attribution {
+  bottom: 0;
   color: hsl(216, 71%, 1%);
-  margin-top: 30px;
-  margin-bottom: 3px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0;
+  position: fixed;
+  right: 50%;
 }
