@@ -46,8 +46,6 @@ color:hsl(220, 15%, 55%);
   color: hsl(216, 71%, 1%);
   position: fixed;
   bottom: 0;
-  display: grid;
-  place-content: center;
-  margin-bottom: 0;
-  text-align: center;
+  left: 0;
+  margin-bottom: 3px;
 }
