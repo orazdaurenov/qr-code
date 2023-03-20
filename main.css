@@ -42,7 +42,7 @@ p {
 color:hsl(220, 15%, 55%);
 }
 
-footer {
+.attribution {
   color: hsl(216, 71%, 1%);
   position: fixed;
   bottom: 0;
