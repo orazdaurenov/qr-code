@@ -49,4 +49,5 @@ footer {
   display: grid;
   place-content: center;
   margin-bottom: 0;
+  text-align: center;
 }
