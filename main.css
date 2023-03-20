@@ -53,27 +53,3 @@ footer {
   align-items: center;
   text-align: center;
 }
-
-@media screen and (min-width:376px){
-  .box {
-  background: hsl(0, 0%, 100%);
-  border-radius: 10px;
-  box-sizing: border-box;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  max-width:375px;
-  padding:7px;
-  justify-content: center;
-  align-items: center;
-  }
-
-  p {
-    color:hsl(212, 45%, 89%);
-    font-weight: 400;
-    max-width: 100%;
-    text-align: center;
-    }
-}
