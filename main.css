@@ -44,6 +44,9 @@ color:hsl(220, 15%, 55%);
 
 footer {
   color: hsl(216, 71%, 1%);
+  position: fixed;
+  bottom: 0;
+  left: 0;
   justify-content: center;
   align-items: center;
 }
