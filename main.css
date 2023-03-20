@@ -47,7 +47,7 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  place-content: center;
   margin-bottom: 0;
 }
