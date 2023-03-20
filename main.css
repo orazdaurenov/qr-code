@@ -46,6 +46,6 @@ color:hsl(220, 15%, 55%);
   color: hsl(216, 71%, 1%);
   position: fixed;
   bottom: 0;
-  left: 0;
+  left: 50%;
   margin-bottom: 3px;
 }
