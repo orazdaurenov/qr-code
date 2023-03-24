@@ -43,7 +43,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .box {
-  max-width: 30rem;
+  max-width: 35rem;
   background: hsl(0, 0%, 100%);
   border-radius: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -51,16 +51,18 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 7rem;
   }
 
-.box p {
-  color: hsl(212, 45%, 89%);
-  font-weight: 400;
-}
-
 .box h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
+  padding: 1rem;
 }
 
 .box img {
   border-radius: 1.5rem;
+}
+
+.box p {
+  color: hsl(212, 45%, 89%);
+  font-weight: 400;
+  padding: 1rem;
 }
