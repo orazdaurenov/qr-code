@@ -23,6 +23,7 @@ body {
   font-family: Outfit, sans-serif;
   font-size: 1.5rem;
   background: rgb(214,225,240);
+  position: relative;
 }
 
 img, picture, video, canvas, svg {
