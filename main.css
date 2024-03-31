@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -6,7 +8,8 @@
   margin: 0;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   font-size: 62.5%;
 }
@@ -16,29 +19,43 @@ body {
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: Outfit, sans-serif;
-  font-size: 1.5rem;
-  background: rgb(214,225,240);
+  font-size: 1.3rem;
+  background: rgb(214, 225, 240);
 }
 
-img, picture, video, canvas, svg {
+img,
+picture,
+video,
+canvas,
+svg {
   display: block;
   max-width: 100%;
 }
 
-input, button, textarea, select {
+input,
+button,
+textarea,
+select {
   font: inherit;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word;
 }
 
-#root, #__next {
+#root,
+#__next {
   isolation: isolate;
 }
 
@@ -48,12 +65,13 @@ p, h1, h2, h3, h4, h5, h6 {
   border-radius: 1.5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 1.3rem;
-  }
+}
 
 .box h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
   padding: 1rem;
+  line-height: 1.2;
 }
 
 .box img {
@@ -63,7 +81,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .box p {
   color: hsl(212, 7%, 55%);
   font-weight: 400;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 footer {
