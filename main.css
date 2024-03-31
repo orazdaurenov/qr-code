@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  line-height: 1.5;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
   min-height: 100vh;
   display: flex;
@@ -85,5 +85,5 @@ h6 {
 }
 
 footer {
-  margin-top: 10rem;
+  margin: 2em auto;
 }
